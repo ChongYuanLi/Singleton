@@ -19,7 +19,6 @@ public:
 
 	static void DesInstance() {
 		if (m_pSington) {
-			m_pSington.reset();
 			m_pSington = nullptr;
 		}
 	}
